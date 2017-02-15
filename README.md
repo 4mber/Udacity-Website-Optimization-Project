@@ -1,7 +1,7 @@
 ## Website Performance Optimization Portfolio Project!
 
 ### Getting started:
-1. Here's the demo!
+1. [Here's the demo!](https://4mber.github.io/Udacity-Website-Optimization-Project/)
 1. To inspect the site on your phone, you can run a local server:
 
   ```bash
