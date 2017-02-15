@@ -20,15 +20,15 @@
 1. Copy the public URL ngrok gives you and try running it through PageSpeed Insights!
 
 ### OPTIMIZATIONS: index.html
-- Inlined critical CSS to `<head>`, then moved nonessential CSS to 'styles.css' and linked to that separately at the bottom of `<body>`. Moved unnecessary CSS to `styles.css`:
-  + `b, strong { font-weight: bold }`
+- Inlined critical CSS to `<head>`, then moved nonessential CSS to 'styles.css' and linked to that separately at the bottom of `<body>`. Nonessential CSS moved to `styles.css`:
+  + `b, strong { font-weight: bold; }`
   + `body { background: #fff; font-weight: 400; }`
   + `html { -ms-text-size-adjust: 100%; -webkit-text-size-adjust: none; -webkit-tap-highlight-color: rgba(0,0,0,0); }`
-  + `a:hover, a:active { outline: 0; }`
+  + `a:hover, a:active { color: #c00; outline: 0; }`
   + `pre, code { font-family: monospace, monospace; font-size: 1em; }`
   + `img { border: 0; }`
   + `.content li { list-style-type: none; }`
-  + styles for button,input,select,textarea, & ol, as none of these are included
+  + styles for button,input,select,textarea, & ol
   + styles  for `a:focus, a:active, and a:hover`
   + media query for smartphones on landscape mode
   + all styles from 'print.css'
