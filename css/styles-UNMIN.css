@@ -1,0 +1,88 @@
+html {
+    -webkit-tap-highlight-color: transparent;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: none
+}
+body {
+    font-weight: 400;
+    background: #fff
+}
+button,
+input,
+select,
+textarea {
+    font-family: Helvetica, sans-serif;
+    color: #333
+}
+a:focus {
+    outline: dotted thin
+}
+a:active,
+a:hover {
+    color: #c00;
+    outline: 0
+}
+b,
+strong {
+    font-weight: 700
+}
+code,
+pre {
+    font-family: monospace, monospace;
+    font-size: 1em
+}
+ol {
+    margin: 1em 0;
+    padding: 0 0 0 20px
+}
+img {
+    border: 0
+}
+.content li {
+    list-style-type: none
+}
+@media only screen and (max-width: 480px) {
+    body {
+        font-size: 12px
+    }
+    header p {
+        padding-left: 4.5em
+    }
+}
+@media print {
+    * {
+        background: 0 0!important;
+        color: #000!important;
+        text-shadow: none!important;
+        filter: none!important;
+        -ms-filter: none!important
+    }
+    a,
+    a:visited {
+        color: #444!important;
+        text-decoration: underline
+    }
+    a[href]:after {
+        content: " (" attr(href) ")"
+    }
+    img,
+    tr {
+        page-break-inside: avoid
+    }
+    img {
+        max-width: 100%!important
+    }
+    @page {
+        margin: .5cm
+    }
+    h2,
+    h3,
+    p {
+        orphans: 3;
+        widows: 3
+    }
+    h2,
+    h3 {
+        page-break-after: avoid
+    }
+}
