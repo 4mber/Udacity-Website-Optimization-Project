@@ -5,22 +5,22 @@ This is a project completed to fulfill a requirement for the Udacity Front End W
 
 ### Getting started:
 1. [Here's the demo!](https://4mber.github.io/Udacity-Website-Optimization-Project/)
-1. To inspect the site on your phone, you can run a local server:
+2. To inspect the site on your phone, you can run a local server:
 
   ```bash
   $> cd /path/to/your-project-folder
   $> python -m SimpleHTTPServer 8080
   ```
 
-1. Open a browser and visit localhost:8080
-1. Download and install [ngrok](https://ngrok.com/) to the top-level of your project directory to make your local server accessible remotely:
+3. Open a browser and visit localhost:8080
+4. Download and install [ngrok](https://ngrok.com/) to the top-level of your project directory to make your local server accessible remotely:
 
   ``` bash
   $> cd /path/to/your-project-folder
   $> ./ngrok http 8080
   ```
 
-1. Copy the public URL ngrok gives you and try running it through PageSpeed Insights!
+5. Copy the public URL ngrok gives you and try running it through PageSpeed Insights!
 
 ### OPTIMIZATIONS: index.html
 - Inlined critical CSS to `<head>`, then moved nonessential CSS to 'styles.css' and linked to that separately at the bottom of `<body>`. Nonessential CSS moved to `styles.css`:
