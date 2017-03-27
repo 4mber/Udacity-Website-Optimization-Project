@@ -1,5 +1,8 @@
 ## Website Performance Optimization Portfolio Project!
 
+This is a project completed to fulfill a requirement for the Udacity Front End Web Development Nanodegree! Here we are given a website which performs very slowly, and must edit the files given so that the site continues to look and function in the same way, except much more efficiently. The requirements met were that the page runs at 60 frames per second, and receives a Google PageSpeed Insights score of at least 90 for both mobile and desktop.
+
+
 ### Getting started:
 1. [Here's the demo!](https://4mber.github.io/Udacity-Website-Optimization-Project/)
 1. To inspect the site on your phone, you can run a local server:
