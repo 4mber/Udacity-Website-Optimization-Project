@@ -64,3 +64,6 @@ This is a project completed to fulfill a requirement for the Udacity Front End W
   + Changed `className` to more efficient `classList.add` method.
 - Moved var `pizzasDiv` outside of for loop.
 - Inlined `styles.css` to bottom of `<body>` of `pizza.html`, and minified `pizza.html`
+
+
+###### This project was created as a requirement for the Udacity Front-End Web Developer Nanodegree!
